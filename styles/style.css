@@ -209,6 +209,7 @@ ol {
 .search-form__textfield {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
+  width: 225px;
   color: #fff;
   background-color: transparent;
   appearance: none;
@@ -263,17 +264,16 @@ ol {
   border: 1px solid #fff;
   cursor: pointer;
   appearance: none;
+  min-height: 34px;
 }
 
 .search-form__submit-button {
   min-width: 194px;
-  height: 34px;
   align-self: flex-end;
 }
 
 .more-button {
   width: 100%;
-  height: 34px;
 }
 
 .button:hover {
